@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding:0 ;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+.container{
+    padding: 0 auto;
+    margin:0 auto;
+    width: 1400px;
+}
+/* ===HEader=== */
+.header {
+    
+    height: 137px;
+    display: flex;
+    align-items: center;
+    border-bottom: solid #F6F6F6 ;
+}
+.header .container {
+    display: flex;
+    justify-content: space-between;
+}
+.kartinka_pizza{
+    display: flex;
+}
+.kartinka_pizza img{
+    margin-right: 17px;
+}
+.text__pizza p:nth-child(1){
+    font-size: 24px;
+    font-weight: 800;
+    font-family: 'Roboto', sans-serif;
+}
+.text__pizza p:nth-child(2){
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+.bag{
+    background-color: #FE5F1E;
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+.bag img{
+    width: 16px;
+height: 16px;
+}
+.poloska{
+    width: 1px;
+height: 25px;
+background: rgba(255, 255, 255, 0.25);
+margin: 0 13px;
+}
