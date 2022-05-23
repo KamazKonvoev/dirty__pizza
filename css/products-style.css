@@ -1,0 +1,100 @@
+.products .container{
+    padding-top: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+.category{
+    display: flex;
+    margin-bottom: 32px;
+}
+.category p{
+    min-width: 82px;
+    height: 46px;
+    background-color:#dfdfdf ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    padding: 0 10px;
+    color: #2C2C2C;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.015em;
+    margin-right: 9px;
+    cursor: pointer;
+}
+.active-category{
+    background-color:#2C2C2C !important;
+    color: #ffffff !important;
+}
+.about__category{
+    
+}
+.product__list{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.product__card{
+    margin: 65px 55px;
+}
+.product__card p{
+    text-align: center;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+}
+.pizza__param{
+    width: 280px;
+    height: 85px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #dfdfdf;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 10px;
+}
+.pizza__param button:nth-child(1), button:nth-child(2){
+    width: 132px;
+    height: 32px;
+}
+.pizza__param button{
+    height: 32px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    background-color: #dfdfdf;
+    border-radius: 5px;
+    border: none;
+    padding: 0 14px;
+    cursor: pointer;
+}
+.pizza__param .active__param{
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.04);
+}
+.add__card{
+    display:flex;
+    align-items: center;
+    padding-top: 17px;
+    justify-content: space-between;
+    width: 280px;
+}
+.add__card button{
+    width: 132px;
+    height: 40px;
+    border-radius: 30px;
+    border: 1px solid#EB5A1E;
+    background-color: #ffffff;
+    color: #EB5A1E;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    cursor: pointer;
+}
+
+
